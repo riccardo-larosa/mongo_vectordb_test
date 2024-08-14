@@ -1,0 +1,9 @@
+langchain 
+pypdf 
+pymongo 
+langchain-openai 
+tiktoken
+python-dotenv
+langchain_community
+langchain_mongodb
+
