@@ -9,3 +9,22 @@ python -m pip install -r requirements.txt
 
 deactivate
 ```
+
+* vector index 
+
+ ```
+ {
+  "fields": [
+    {
+      "numDimensions": 1536,
+      "path": "embedding",
+      "similarity": "cosine",
+      "type": "vector"
+    },
+    {
+      "path": "page",
+      "type": "filter"
+    }
+  ]
+}
+```
